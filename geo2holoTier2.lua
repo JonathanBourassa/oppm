@@ -8,8 +8,8 @@ if not component.isAvailable("hologram") then
   return
 end
 
-local sx, sz = 144, 144
-local ox, oz = -24, -24
+local sx, sz = 80, 80
+local ox, oz = -40, -40
 local starty, stopy = -5
 
 local function validateY(value, min, max, default)
